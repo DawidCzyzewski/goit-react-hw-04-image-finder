@@ -1,0 +1,23 @@
+.imageListElem {
+  display: flex;
+  flex-basis: calc((100% / 3) - 20px);
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-position: center;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
